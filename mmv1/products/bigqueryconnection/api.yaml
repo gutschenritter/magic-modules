@@ -115,6 +115,7 @@ objects:
           - cloud_sql
           - cloud_resource
         description: Cloud Resource properties.
+        send_empty_value: true
         properties:
           - !ruby/object:Api::Type::String
             name: serviceAccountId
